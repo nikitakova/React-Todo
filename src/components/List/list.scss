@@ -1,0 +1,74 @@
+.list {
+  $self: &;
+  margin-bottom: 30px;
+
+  &__add-button {
+    svg,
+    span {
+      opacity: 0.4;
+      transition: opacity 0.3s ease;
+    }
+
+    &:hover {
+      svg,
+      span {
+        opacity: 1;
+      }
+    }
+  }
+
+  span {
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 160px;
+    white-space: nowrap;
+  }
+
+  li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    transition: background-color 0.15s ease-in-out;
+    cursor: pointer;
+
+    &:hover #{$self}__remove-icon {
+      opacity: 0.2;
+    }
+
+    #{$self}__remove-icon {
+      opacity: 0;
+      transition: opacity 0.15s ease-in-out;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    &.active {
+      background-color: #ffffff;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+    }
+
+    .badge {
+      position: relative;
+      left: 4px;
+    }
+
+    i {
+      display: inline-flex;
+      margin-right: 8px;
+      svg {
+        path {
+          fill: #7c7c7c;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "lists": [
+    {
+      "id": 2,
+      "name": "Фронтенд",
+      "colorId": 4
+    },
+    {
+      "id": 3,
+      "name": "Фильмы и сериалы",
+      "colorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Книги",
+      "colorId": 2
+    },
+    {
+      "id": 5,
+      "name": "Личное",
+      "colorId": 1
+    },
+    {
+      "name": "Тренировки :D",
+      "colorId": 2,
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "Изучить JavaScript 👽",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "listId": 2,
+      "text": "ReactJS Hooks (useState, useReducer, useEffect и т.д.)",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "Redux (redux-observable, redux-saga)",
+      "completed": true
+    },
+    {
+      "listId": 4,
+      "text": "Купить 1984!",
+      "completed": true,
+      "id": 10
+    },
+    {
+      "listId": 5,
+      "text": "Чтобы все мамины и папины болячки прошли",
+      "completed": true,
+      "id": 19
+    },
+    {
+      "listId": 7,
+      "text": "Научиться прыгать",
+      "completed": true,
+      "id": 22
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}
